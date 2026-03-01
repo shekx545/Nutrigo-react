@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #f3f4f6;
+}
+
+.logo {
+    margin: 0;
+    font-weight: 600;
+    color: #111827;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+
+.icon {
+    margin-right: 8px;
+    color: #9ca3af;
+    font-size: 18px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.filter-btn {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    background-color: #f9fafb;
+}
+
+.add-btn {
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #84cc16;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #65a30d;
+}
