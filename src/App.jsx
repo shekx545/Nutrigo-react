@@ -11,7 +11,6 @@ const App = () => {
       <Sidebar />
       <div className="main-content">
         <Routes>
-          <Route path="/" element={<Navigate to="/menu" />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/food-diary" element={<FoodDiary />} />
           <Route path="/progress" element={<Progress />} />

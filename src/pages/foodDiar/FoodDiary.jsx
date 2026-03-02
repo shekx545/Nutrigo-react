@@ -1,6 +1,5 @@
-import React from "react";
-import "../styles/FoodDiary.css";
-import foodData from "../data/foodData";
+import "./FoodDiary.css";
+import foodData from "../../data/foodData/foodData";
 
 const FoodDiary = () => {
   return (
