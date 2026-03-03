@@ -1,0 +1,202 @@
+.progress-page {
+    padding: 50px 70px;
+    background: #f4f6f9;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+.progress-page .title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 40px;
+}
+
+.progress-page .progress-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.progress-page .body-section {
+    width: 42%;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 24px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.progress-page .body-img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+.progress-page .label {
+    position: absolute;
+    background: #ffffff;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+}
+
+.progress-page .chest {
+    top: 22%;
+    right: 8%;
+}
+
+.progress-page .arm {
+    top: 30%;
+    left: 6%;
+}
+
+.progress-page .waist {
+    top: 45%;
+    right: 6%;
+}
+
+.progress-page .hips {
+    top: 65%;
+    left: 6%;
+}
+
+.progress-page .thigh {
+    top: 75%;
+    right: 10%;
+}
+
+.progress-page .right-section {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.progress-page .card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+}
+
+.progress-page .card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: #111827;
+}
+
+.progress-page .weight-info p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #4b5563;
+}
+
+.progress-page .weight-info span {
+    font-weight: 600;
+    color: #111827;
+}
+
+.progress-page .chart-placeholder {
+    margin-top: 20px;
+    height: 180px;
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.progress-page .chart-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.progress-page .photos {
+    display: flex;
+    gap: 25px;
+}
+
+.progress-page .photo-box {
+    text-align: center;
+}
+
+.progress-page .photo-box img {
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.progress-page .photo-box p {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #374151;
+}
+
+.progress-page .table-card {
+    margin-top: 50px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+    overflow-x: auto;
+}
+
+.progress-page table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.progress-page thead {
+    background: #f9fafb;
+}
+
+.progress-page th {
+    padding: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.progress-page td {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.progress-page tbody tr:hover {
+    background: #f3f4f6;
+    transition: 0.2s ease;
+}
+
+@media (max-width: 1024px) {
+
+    .progress-page .progress-container {
+        flex-direction: column;
+    }
+
+    .progress-page .body-section,
+    .progress-page .right-section {
+        width: 100%;
+    }
+
+    .progress-page .photos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
